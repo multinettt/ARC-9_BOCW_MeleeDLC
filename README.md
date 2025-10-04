@@ -1,15 +1,24 @@
-# ARC9 BOCW Melee
+# ARC9 BOCW Melee DLC
 
-The BOCW Knife on [ARC9](https://github.com/HaodongMo/ARC-9) base.
+11 Seasonal BOCW Melees on [ARC9](https://github.com/HaodongMo/ARC-9) base.
 
 ## You need to have [Shared Content](https://github.com/multinettt/ARC-9_BOCW_Shared_Content) in order to avoid missing textures, materials and sounds.
 
 ## [BOCW Attachments](https://github.com/multinettt/ARC-9_BOCW_Attachments)
 
 ## Weapons List:
-### Melee:
-
-- Knife
+### Melee DLC:
+- Sledgehammer
+- Wakizashi
+- Machete
+- E-Tool
+- Baseball Bat
+- Mace
+- Cane
+- Sai
+- Battle Axe
+- Hammer and Sickle
+- Scythe
 
 ## Personalization:
 
