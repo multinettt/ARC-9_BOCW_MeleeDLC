@@ -31,7 +31,7 @@ sound.Add({
     sound = "weapons/arc9/bocw_sledgehammer/sledgehammer_inspect.wav"
 })
 
--- FIRING SOUNDS
+-- MELEE SOUNDS
 
 sound.Add({ -- BLACK OPS COLD WAR
     name = "ARC9_BOCW.Sledgehammer_impact",
@@ -52,4 +52,29 @@ sound.Add({
     channel = CHAN_AUTO,
     volume = 1.0,
     sound = {"weapons/arc9/bocw_sledgehammer/sledgehammer_hit1.wav", "weapons/arc9/bocw_sledgehammer/sledgehammer_hit2.wav", "weapons/arc9/bocw_sledgehammer/sledgehammer_hit3.wav", "weapons/arc9/bocw_sledgehammer/sledgehammer_hit4.wav"}
+})
+--[[
+oooooo   oooooo     oooo           oooo         o8o                                oooo         o8o  
+ `888.    `888.     .8'            `888         `"'                                `888         `"'  
+  `888.   .8888.   .8'    .oooo.    888  oooo  oooo    oooooooo  .oooo.    .oooo.o  888 .oo.   oooo  
+   `888  .8'`888. .8'    `P  )88b   888 .8P'   `888   d'""7d8P  `P  )88b  d88(  "8  888P"Y88b  `888  
+    `888.8'  `888.8'      .oP"888   888888.     888     .d8P'    .oP"888  `"Y88b.   888   888   888  
+     `888'    `888'      d8(  888   888 `88b.   888   .d8P'  .P d8(  888  o.  )88b  888   888   888  
+      `8'      `8'       `Y888""8o o888o o888o o888o d8888888P  `Y888""8o 8""888P' o888o o888o o888o 
+]]
+-- READY FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.Wakizashi_ready",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_wakizashi/wakizashi_ready.wav"
+})
+-- MELEE SOUNDS
+
+sound.Add({
+    name = "ARC9_BOCW.Wakizashi_swing",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = {"weapons/arc9/bocw_wakizashi/wakizashi_swing1.wav", "weapons/arc9/bocw_wakizashi/wakizashi_swing2.wav", "weapons/arc9/bocw_wakizashi/wakizashi_swing3.wav"}
 })

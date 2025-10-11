@@ -149,13 +149,13 @@ SWEP.NPCWeight = 100 -- How likely it is for an NPC to get this weapon as oppose
 
 -------------------------- SOUNDS
 
-SWEP.MeleeHitSound = "ARC9_BOCW.Wakizashi_hit"
-SWEP.MeleeHitWallSound = "ARC9_BOCW.Wakizashi_impact"
-SWEP.MeleeSwingSound = ""
+SWEP.MeleeHitSound = {"ARC9_BOCW.Shared_Melee_slash", "ARC9_BOCW.Shared_Melee_stab"}
+SWEP.MeleeHitWallSound = "ARC9_BOCW.Shared_Melee_impact"
+SWEP.MeleeSwingSound = "ARC9_BOCW.Wakizashi_swing"
 
 -------------------------- EFFECTS
 
-SWEP.CamQCA = 1
+SWEP.CamQCA = 2
 
 SWEP.NoViewBob = false
 
@@ -238,21 +238,12 @@ SWEP.Animations = {
     },
     ["bash"] = {
         Source = "melee1",
-        EventTable = {
-            { s = "ARC9_BOCW.Wakizashi_swing", t = 0.2 },
-        },
     },
     ["1_bash"] = {
         Source = "melee2",
-        EventTable = {
-            { s = "ARC9_BOCW.Wakizashi_swing", t = 0.1 },
-        },
     },
     ["2_bash"] = {
         Source = "melee3",
-        EventTable = {
-            { s = "ARC9_BOCW.Wakizashi_swing", t = 0.1 },
-        },
     },
     ["enter_sprint"] = {
         Source = "supersprint_in",
