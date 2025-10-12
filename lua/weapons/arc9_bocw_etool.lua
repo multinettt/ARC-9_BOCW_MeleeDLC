@@ -1,7 +1,7 @@
 --=============================================================================
 --   ARC9 CALL OF DUTY: BLACK OPS COLD WAR
 --   MELEE DLC
---   WAKIZASHI
+--   E-TOOL
 --=============================================================================
 --[[
 --   SWEP INFORMATION:
@@ -11,13 +11,13 @@
 --   SR.NO : 
 
 
-oooooo   oooooo     oooo           oooo         o8o                                oooo         o8o  
- `888.    `888.     .8'            `888         `"'                                `888         `"'  
-  `888.   .8888.   .8'    .oooo.    888  oooo  oooo    oooooooo  .oooo.    .oooo.o  888 .oo.   oooo  
-   `888  .8'`888. .8'    `P  )88b   888 .8P'   `888   d'""7d8P  `P  )88b  d88(  "8  888P"Y88b  `888  
-    `888.8'  `888.8'      .oP"888   888888.     888     .d8P'    .oP"888  `"Y88b.   888   888   888  
-     `888'    `888'      d8(  888   888 `88b.   888   .d8P'  .P d8(  888  o.  )88b  888   888   888  
-      `8'      `8'       `Y888""8o o888o o888o o888o d8888888P  `Y888""8o 8""888P' o888o o888o o888o 
+oooooooooooo         ooooooooooooo                     oooo  
+`888'     `8         8'   888   `8                     `888  
+ 888                      888       .ooooo.   .ooooo.   888  
+ 888oooo8                 888      d88' `88b d88' `88b  888  
+ 888    "    8888888      888      888   888 888   888  888  
+ 888       o              888      888   888 888   888  888  
+o888ooooood8             o888o     `Y8bod8P' `Y8bod8P' o888o 
 
 
 ]]
@@ -32,13 +32,13 @@ SWEP.Category = "ARC9 - Black Ops Cold War"
 SWEP.SubCategory = "9Melee"
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Wakizashi"
-SWEP.TrueName = "Wakizashi"
+SWEP.PrintName = "E-Tool"
+SWEP.TrueName = "E-Tool"
 SWEP.Class = "Melee"
 SWEP.Trivia = {
     Manufacturer = "Unknown",
     Mechanism = "Mechanics",
-    Country = "Japan",
+    Country = "Unknown",
     Year = "Unknown"
 }
 
@@ -47,16 +47,16 @@ SWEP.Credits = {
      --Contact = "https://steamcommunity.com/id/multinett/"
 }
 
-SWEP.Description = [[Famously known as the companion sword to the Samurai's Katana. Traditionally forged using a folded steel technique. Light to wield, resilient to force, and durable to wear.
+SWEP.Description = [[Lightweight entrenching shovel effective in close quarters combat. Offers enhanced mobility.
 
-The Wakizashi is a melee weapon featured in Call of Duty: Modern Warfare Remastered and Call of Duty: Black Ops Cold War.
+The Shovel appears as a melee weapon in Call of Duty: Zombies, Call of Duty: WWII, Call of Duty: Mobile and Call of Duty: Black Ops Cold War, and as a utility in Call of Duty: Black Ops II, Call of Duty: Advanced Warfare, Call of Duty: Black Ops III, Call of Duty: Vanguard, and Call of Duty: Black Ops 6.
 
-The Wakizashi returns in Call of Duty: Black Ops Cold War. It was added on January 14th, 2021 as part of the Season One update.]]
+The Shovel returns in Call of Duty: Black Ops Cold War as the E-Tool. It was added on March 11st, 2021 as part of the Season Two update.]]
 
 SWEP.UseHands = true
 
-SWEP.ViewModel = "models/weapons/arc9/c_arc9_wakizashi_bocw.mdl"
-SWEP.WorldModel = "models/weapons/arc9/c_arc9_wakizashi_bocw.mdl"
+SWEP.ViewModel = "models/weapons/arc9/c_arc9_etool_bocw.mdl"
+SWEP.WorldModel = "models/weapons/arc9/c_arc9_etool_bocw.mdl"
 
 SWEP.Slot = 0
 
@@ -126,10 +126,10 @@ SWEP.Bash2 = false
 SWEP.SecondaryBash = false
 
 SWEP.BashDamage = 150
-SWEP.BashLungeRange = 64
+SWEP.BashLungeRange = 0
 SWEP.BashRange = 64
-SWEP.PreBashTime = 0.29
-SWEP.PostBashTime = 0.6
+SWEP.PreBashTime = 0.2
+SWEP.PostBashTime = 0.4
 SWEP.BashDamageType = DMG_CLUB
 SWEP.BashDecal = "ManhackCut"
 
@@ -149,13 +149,13 @@ SWEP.NPCWeight = 100 -- How likely it is for an NPC to get this weapon as oppose
 
 -------------------------- SOUNDS
 
-SWEP.MeleeHitSound = {"ARC9_BOCW.Shared_Melee_slash", "ARC9_BOCW.Shared_Melee_stab"}
+SWEP.MeleeHitSound = "ARC9_BOCW.Shared_Melee_slash"
 SWEP.MeleeHitWallSound = "ARC9_BOCW.Shared_Melee_impact"
-SWEP.MeleeSwingSound = "ARC9_BOCW.Wakizashi_swing"
+SWEP.MeleeSwingSound = "ARC9_BOCW.ETool_swing"
 
 -------------------------- EFFECTS
 
-SWEP.CamQCA = 2
+SWEP.CamQCA = 1
 
 SWEP.NoViewBob = false
 
@@ -215,7 +215,7 @@ SWEP.Attachments = {
     {
         PrintName = "STICKER 1",
         Category = "stickers",
-        StickerModel = "models/weapons/arc9/stickers/bocw_wakizashi_sticker1.mdl",
+        StickerModel = "models/weapons/arc9/stickers/bocw_etool_sticker1.mdl",
         CosmeticOnly = true,
     },
 }
@@ -233,7 +233,7 @@ SWEP.Animations = {
     ["ready"] = {
         Source = "ready",
         EventTable = {
-            { s = "ARC9_BOCW.Wakizashi_ready", t = 0 },
+            { s = "ARC9_BOCW.ETool_ready", t = 0 },
         },
     },
     ["bash"] = {
@@ -263,7 +263,7 @@ SWEP.Animations = {
     ["enter_inspect"] = {
         Source = "inspect",
         EventTable = {
-            { s = "ARC9_BOCW.wakizashi_inspect", t = 0 },
+            { s = "ARC9_BOCW.etool_inspect", t = 0 },
         },
     },
 }
