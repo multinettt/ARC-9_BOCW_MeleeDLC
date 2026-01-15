@@ -114,7 +114,23 @@ ooo        ooooo                     oooo                      .
  8    Y     888  d8(  888  888   .o8  888   888  888    .o   888 . 888    .o 
 o8o        o888o `Y888""8o `Y8bod8P' o888o o888o `Y8bod8P'   "888" `Y8bod8P' 
 ]]
+-- READY FOLEY
 
+sound.Add({
+    name = "ARC9_BOCW.Machete_ready",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_machete/machete_ready.wav"
+})
+
+-- INSPECT FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.Machete_inspect",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_machete/machete_inspect.wav"
+})
 --[[
 oooooooooo.                                .o8                 oooo  oooo     oooooooooo.                .   
 `888'   `Y8b                              "888                 `888  `888     `888'   `Y8b             .o8   
