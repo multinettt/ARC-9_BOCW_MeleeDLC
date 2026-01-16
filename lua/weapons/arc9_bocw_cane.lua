@@ -148,7 +148,7 @@ SWEP.NPCWeight = 100 -- How likely it is for an NPC to get this weapon as oppose
 -------------------------- SOUNDS
 
 SWEP.MeleeHitSound = "ARC9_BOCW.Cane_hit"
-SWEP.MeleeHitWallSound = "ARC9_BOCW.Cane_impact"
+SWEP.MeleeHitWallSound = "ARC9_BOCW.Sledgehammer_impact"
 SWEP.MeleeSwingSound = ""
 
 -------------------------- EFFECTS

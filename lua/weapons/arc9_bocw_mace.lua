@@ -126,7 +126,7 @@ SWEP.SecondaryBash = false
 SWEP.BashDamage = 150
 SWEP.BashLungeRange = 64
 SWEP.BashRange = 64
-SWEP.PreBashTime = 0.2
+SWEP.PreBashTime = 0.25
 SWEP.PostBashTime = 0.6
 SWEP.BashDamageType = DMG_CLUB
 SWEP.BashDecal = "ManhackCut"
@@ -148,7 +148,7 @@ SWEP.NPCWeight = 100 -- How likely it is for an NPC to get this weapon as oppose
 -------------------------- SOUNDS
 
 SWEP.MeleeHitSound = "ARC9_BOCW.Mace_hit"
-SWEP.MeleeHitWallSound = "ARC9_BOCW.Mace_impact"
+SWEP.MeleeHitWallSound = "ARC9_BOCW.Sledgehammer_impact"
 SWEP.MeleeSwingSound = ""
 
 -------------------------- EFFECTS

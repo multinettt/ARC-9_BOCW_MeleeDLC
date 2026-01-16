@@ -166,7 +166,7 @@ sound.Add({ -- BLACK OPS COLD WAR
     volume = 1.0,
     sound = {"weapons/arc9/bocw_baseballbat/baseballbat_impact1.wav", "weapons/arc9/bocw_baseballbat/baseballbat_impact2.wav"}
 })
--- BASEBALL BAT USES SLEDGEHAMMER SWING SOUNDS.
+
 sound.Add({
     name = "ARC9_BOCW.BaseballBat_hit",
     channel = CHAN_AUTO,
@@ -182,7 +182,14 @@ ooo        ooooo
  8    Y     888  d8(  888  888   .o8 888    .o 
 o8o        o888o `Y888""8o `Y8bod8P' `Y8bod8P' 
 ]]
+-- MELEE SOUNDS
 
+sound.Add({
+    name = "ARC9_BOCW.Mace_swing",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = {"weapons/arc9/bocw_mace/mace_swing1.wav", "weapons/arc9/bocw_mace/mace_swing2.wav", "weapons/arc9/bocw_mace/mace_swing3.wav"}
+})
 --[[
   .oooooo.                                   
  d8P'  `Y8b                                  
@@ -200,6 +207,15 @@ sound.Add({
     volume = 1.0,
     sound = "weapons/arc9/bocw_cane/cane_inspect.wav"
 })
+
+-- MELEE SOUNDS
+
+sound.Add({
+    name = "ARC9_BOCW.Cane_swing",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = {"weapons/arc9/bocw_cane/cane_swing1.wav", "weapons/arc9/bocw_cane/cane_swing2.wav", "weapons/arc9/bocw_cane/cane_swing3.wav"}
+})
 --[[
  .oooooo..o            o8o  
 d8P'    `Y8            `"'  
@@ -216,6 +232,15 @@ sound.Add({
     channel = CHAN_AUTO,
     volume = 1.0,
     sound = "weapons/arc9/bocw_sai/sai_ready.wav"
+})
+
+-- MELEE SOUNDS
+
+sound.Add({
+    name = "ARC9_BOCW.Sai_swing",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = {"weapons/arc9/bocw_sai/sai_swing1.wav", "weapons/arc9/bocw_sai/sai_swing2.wav"}
 })
 --[[
 oooooooooo.                .       .   oooo                     .o.                             
