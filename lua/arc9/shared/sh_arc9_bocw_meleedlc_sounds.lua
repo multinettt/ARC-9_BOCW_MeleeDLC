@@ -192,7 +192,14 @@ o8o        o888o `Y888""8o `Y8bod8P' `Y8bod8P'
 `88b    ooo  d8(  888   888   888  888    .o 
  `Y8bood8P'  `Y888""8o o888o o888o `Y8bod8P' 
 ]]
+-- INSPECT FOLEY
 
+sound.Add({
+    name = "ARC9_BOCW.Cane_inspect",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_cane/cane_inspect.wav"
+})
 --[[
  .oooooo..o            o8o  
 d8P'    `Y8            `"'  
