@@ -166,7 +166,7 @@ sound.Add({ -- BLACK OPS COLD WAR
     volume = 1.0,
     sound = {"weapons/arc9/bocw_baseballbat/baseballbat_impact1.wav", "weapons/arc9/bocw_baseballbat/baseballbat_impact2.wav"}
 })
-
+-- BASEBALL BAT USES SLEDGEHAMMER SWING SOUNDS.
 sound.Add({
     name = "ARC9_BOCW.BaseballBat_hit",
     channel = CHAN_AUTO,
