@@ -243,7 +243,14 @@ ooooo   ooooo                                                                   
  888     888  d8(  888   888   888   888   888   888   888  888    .o  888        d8(  888   888   888  888   888     oo     .d8P  888  888   .o8  888 `88b.   888  888    .o 
 o888o   o888o `Y888""8o o888o o888o o888o o888o o888o o888o `Y8bod8P' d888b       `Y888""8o o888o o888o `Y8bod88P"    8""88888P'  o888o `Y8bod8P' o888o o888o o888o `Y8bod8P' 
 ]]
+-- INSPECT FOLEY
 
+sound.Add({
+    name = "ARC9_BOCW.HammerandSickle_inspect",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_hammerandsickle/hammerandsickle_inspect.wav"
+})
 --[[
  .oooooo..o                           .   oooo                  
 d8P'    `Y8                         .o8   `888                  
