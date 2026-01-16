@@ -226,7 +226,14 @@ oooooooooo.                .       .   oooo                     .o.
  888    .88P d8(  888    888 .   888 .  888  888    .o     .8'     `888.   .o8"'88b   888    .o 
 o888bood8P'  `Y888""8o   "888"   "888" o888o `Y8bod8P'    o88o     o8888o o88'   888o `Y8bod8P' 
 ]]
+-- READY FOLEY
 
+sound.Add({
+    name = "ARC9_BOCW.BattleAxe_ready",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_battleaxe/battleaxe_ready.wav"
+})
 --[[
 ooooo   ooooo                                                                                                 .o8      .oooooo..o  o8o            oooo        oooo            
 `888'   `888'                                                                                                "888     d8P'    `Y8  `"'            `888        `888            
