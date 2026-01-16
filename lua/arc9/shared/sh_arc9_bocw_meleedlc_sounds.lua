@@ -140,7 +140,39 @@ oooooooooo.                                .o8                 oooo  oooo     oo
  888    .88P d8(  888  o.  )88b 888    .o  888   888 d8(  888   888   888      888    .88P d8(  888    888 . 
 o888bood8P'  `Y888""8o 8""888P' `Y8bod8P'  `Y8bod8P' `Y888""8o o888o o888o    o888bood8P'  `Y888""8o   "888" 
 ]]
+-- READY FOLEY
 
+sound.Add({
+    name = "ARC9_BOCW.BaseballBat_ready",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_baseballbat/baseballbat_ready.wav"
+})
+
+-- INSPECT FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.BaseballBat_inspect",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = {"weapons/arc9/bocw_baseballbat/baseballbat_inspect1.wav","weapons/arc9/bocw_baseballbat/baseballbat_inspect2.wav"}
+})
+
+-- MELEE SOUNDS
+
+sound.Add({ -- BLACK OPS COLD WAR
+    name = "ARC9_BOCW.BaseballBat_impact",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = {"weapons/arc9/bocw_baseballbat/baseballbat_impact1.wav", "weapons/arc9/bocw_baseballbat/baseballbat_impact2.wav"}
+})
+
+sound.Add({
+    name = "ARC9_BOCW.BaseballBat_hit",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = {"weapons/arc9/bocw_baseballbat/baseballbat_hit1.wav", "weapons/arc9/bocw_baseballbat/baseballbat_hit2.wav"}
+})
 --[[
 ooo        ooooo                               
 `88.       .888'                               
