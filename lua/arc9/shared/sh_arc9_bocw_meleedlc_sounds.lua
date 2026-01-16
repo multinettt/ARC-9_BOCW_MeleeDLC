@@ -209,7 +209,14 @@ Y88bo.       .oooo.   oooo
 oo     .d8P d8(  888   888  
 8""88888P'  `Y888""8o o888o 
 ]]
+-- READY FOLEY
 
+sound.Add({
+    name = "ARC9_BOCW.Sai_ready",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_sai/sai_ready.wav"
+})
 --[[
 oooooooooo.                .       .   oooo                     .o.                             
 `888'   `Y8b             .o8     .o8   `888                    .888.                            
