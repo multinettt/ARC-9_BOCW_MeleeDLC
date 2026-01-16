@@ -262,3 +262,11 @@ oo     .d8P 888   .o8    `888'      888 .  888   888  888    .o
                       .o..P'                                    
                       `Y8P'                                     
 ]]
+-- INSPECT FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.Scythe_inspect",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_scythe/scythe_inspect.wav"
+})
