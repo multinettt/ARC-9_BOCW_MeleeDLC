@@ -68,8 +68,8 @@ SWEP.TPIKforcelefthand = true
 SWEP.DefaultBodygroups = "00000000000000"
 
 SWEP.WorldModelOffset = {
-    Pos = Vector(-20, 3, -6.2),
-    Ang = Angle(-10, 0, 180),
+    Pos = Vector(-12, 5, -10),
+    Ang = Angle(0, 0, 120),
     Scale = 1
 }
 
@@ -128,7 +128,7 @@ SWEP.SecondaryBash = false
 SWEP.BashDamage = 150
 SWEP.BashLungeRange = 64
 SWEP.BashRange = 64
-SWEP.PreBashTime = 0.29
+SWEP.PreBashTime = 0.32
 SWEP.PostBashTime = 0.6
 SWEP.BashDamageType = DMG_CLUB
 SWEP.BashDecal = "ManhackCut"
@@ -193,7 +193,7 @@ SWEP.CustomizeNoRotate = false
 
 -------------------------- HoldTypes
 
-SWEP.HoldType = "duel"
+SWEP.HoldType = "crowbar"
 SWEP.HoldTypeSprint = "normal"
 SWEP.HoldTypeHolstered = "normal"
 SWEP.HoldTypeCustomize = "slam"

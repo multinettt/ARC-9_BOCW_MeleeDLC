@@ -66,8 +66,8 @@ SWEP.TPIKforcelefthand = true
 SWEP.DefaultBodygroups = "00000000000000"
 
 SWEP.WorldModelOffset = {
-    Pos = Vector(-20, 3, -6.2),
-    Ang = Angle(-10, 0, 180),
+    Pos = Vector(-13, 3.5, -12),
+    Ang = Angle(0, 0, 120),
     Scale = 1
 }
 
@@ -147,7 +147,7 @@ SWEP.NPCWeight = 100 -- How likely it is for an NPC to get this weapon as oppose
 
 -------------------------- SOUNDS
 
-SWEP.MeleeHitSound = "ARC9_BOCW.Cane_hit"
+SWEP.MeleeHitSound = "ARC9_BOCW.Sledgehammer_hit"
 SWEP.MeleeHitWallSound = "ARC9_BOCW.Sledgehammer_impact"
 SWEP.MeleeSwingSound = ""
 
@@ -191,7 +191,7 @@ SWEP.CustomizeNoRotate = false
 
 -------------------------- HoldTypes
 
-SWEP.HoldType = "duel"
+SWEP.HoldType = "crowbar"
 SWEP.HoldTypeSprint = "normal"
 SWEP.HoldTypeHolstered = "normal"
 SWEP.HoldTypeCustomize = "slam"

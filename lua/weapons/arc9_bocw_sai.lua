@@ -68,8 +68,8 @@ SWEP.TPIKforcelefthand = true
 SWEP.DefaultBodygroups = "00000000000000"
 
 SWEP.WorldModelOffset = {
-    Pos = Vector(-20, 3, -6.2),
-    Ang = Angle(-10, 0, 180),
+    Pos = Vector(-15, 14, 7),
+    Ang = Angle(0, 0, 0),
     Scale = 1
 }
 
@@ -192,7 +192,7 @@ SWEP.CustomizeNoRotate = false
 
 -------------------------- HoldTypes
 
-SWEP.HoldType = "duel"
+SWEP.HoldType = "knife"
 SWEP.HoldTypeSprint = "normal"
 SWEP.HoldTypeHolstered = "normal"
 SWEP.HoldTypeCustomize = "slam"

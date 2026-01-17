@@ -68,8 +68,8 @@ SWEP.TPIKforcelefthand = true
 SWEP.DefaultBodygroups = "00000000000000"
 
 SWEP.WorldModelOffset = {
-    Pos = Vector(-20, 3, -6.2),
-    Ang = Angle(-10, 0, 180),
+    Pos = Vector(-12, 5, -6),
+    Ang = Angle(0, 0, 180),
     Scale = 1
 }
 
@@ -161,6 +161,12 @@ SWEP.FireInterruptInspect = true
 
 SWEP.NoViewBob = false
 
+-------------------------- VISUALS
+
+SWEP.HideBones = {
+    "tag_sheath_animated"
+} -- bones to hide in third person and customize menu. {"list", "of", "bones"}
+
 -------------------------- POSITIONS
 
 SWEP.HasSights = false
@@ -193,7 +199,7 @@ SWEP.CustomizeNoRotate = false
 
 -------------------------- HoldTypes
 
-SWEP.HoldType = "duel"
+SWEP.HoldType = "knife"
 SWEP.HoldTypeSprint = "normal"
 SWEP.HoldTypeHolstered = "normal"
 SWEP.HoldTypeCustomize = "slam"

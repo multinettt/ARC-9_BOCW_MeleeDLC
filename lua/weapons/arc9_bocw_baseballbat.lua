@@ -36,7 +36,7 @@ SWEP.PrintName = "Baseball Bat"
 SWEP.TrueName = "Baseball Bat"
 SWEP.Class = "Melee"
 SWEP.Trivia = {
-    Manufacturer = "ARKWELD",
+    Manufacturer = "Arkweld",
     Mechanism = "Mechanics",
     Country = "Unknown",
     Year = "Unknown"
@@ -68,8 +68,8 @@ SWEP.TPIKforcelefthand = true
 SWEP.DefaultBodygroups = "00000000000000"
 
 SWEP.WorldModelOffset = {
-    Pos = Vector(-20, 3, -6.2),
-    Ang = Angle(-10, 0, 180),
+    Pos = Vector(-13, 8, -8),
+    Ang = Angle(0, 0, 180),
     Scale = 1
 }
 
@@ -193,7 +193,7 @@ SWEP.CustomizeNoRotate = false
 
 -------------------------- HoldTypes
 
-SWEP.HoldType = "duel"
+SWEP.HoldType = "crowbar"
 SWEP.HoldTypeSprint = "normal"
 SWEP.HoldTypeHolstered = "normal"
 SWEP.HoldTypeCustomize = "slam"
