@@ -71,6 +71,15 @@ sound.Add({
     sound = "weapons/arc9/bocw_wakizashi/wakizashi_ready.wav"
 })
 
+-- INSPECT FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.Wakizashi_inspect",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_wakizashi/wakizashi_inspect.wav"
+})
+
 -- MELEE SOUNDS
 
 sound.Add({
@@ -95,6 +104,15 @@ sound.Add({
     channel = CHAN_AUTO,
     volume = 1.0,
     sound = "weapons/arc9/bocw_etool/etool_ready.wav"
+})
+
+-- INSPECT FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.ETool_inspect",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_etool/etool_inspect.wav"
 })
 
 -- MELEE SOUNDS
@@ -130,6 +148,15 @@ sound.Add({
     channel = CHAN_ITEM,
     volume = 1.0,
     sound = "weapons/arc9/bocw_machete/machete_inspect.wav"
+})
+
+-- MELEE SOUNDS
+
+sound.Add({
+    name = "ARC9_BOCW.Machete_swing",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = {"weapons/arc9/bocw_machete/machete_swing1.wav", "weapons/arc9/bocw_machete/machete_swing2.wav", "weapons/arc9/bocw_machete/machete_swing3.wav", "weapons/arc9/bocw_machete/machete_swing4.wav", "weapons/arc9/bocw_machete/machete_swing5.wav"}
 })
 --[[
 oooooooooo.                                .o8                 oooo  oooo     oooooooooo.                .   
@@ -182,6 +209,13 @@ ooo        ooooo
  8    Y     888  d8(  888  888   .o8 888    .o 
 o8o        o888o `Y888""8o `Y8bod8P' `Y8bod8P' 
 ]]
+sound.Add({
+    name = "ARC9_BOCW.Mace_inspect",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_mace/mace_inspect.wav"
+})
+
 -- MELEE SOUNDS
 
 sound.Add({
@@ -199,6 +233,15 @@ sound.Add({
 `88b    ooo  d8(  888   888   888  888    .o 
  `Y8bood8P'  `Y888""8o o888o o888o `Y8bod8P' 
 ]]
+-- READY FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.Cane_ready",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_cane/cane_ready.wav"
+})
+
 -- INSPECT FOLEY
 
 sound.Add({
@@ -240,7 +283,7 @@ sound.Add({
     name = "ARC9_BOCW.Sai_swing",
     channel = CHAN_AUTO,
     volume = 1.0,
-    sound = {"weapons/arc9/bocw_sai/sai_swing1.wav", "weapons/arc9/bocw_sai/sai_swing2.wav"}
+    sound = {"weapons/arc9/bocw_sai/sai_swing1.wav", "weapons/arc9/bocw_sai/sai_swing2.wav", "weapons/arc9/bocw_sai/sai_swing3.wav"}
 })
 --[[
 oooooooooo.                .       .   oooo                     .o.                             
@@ -268,6 +311,15 @@ ooooo   ooooo                                                                   
  888     888  d8(  888   888   888   888   888   888   888  888    .o  888        d8(  888   888   888  888   888     oo     .d8P  888  888   .o8  888 `88b.   888  888    .o 
 o888o   o888o `Y888""8o o888o o888o o888o o888o o888o o888o `Y8bod8P' d888b       `Y888""8o o888o o888o `Y8bod88P"    8""88888P'  o888o `Y8bod8P' o888o o888o o888o `Y8bod8P' 
 ]]
+-- READY FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.HammerandSickle_ready",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_hammerandsickle/hammerandsickle_ready.wav"
+})
+
 -- INSPECT FOLEY
 
 sound.Add({

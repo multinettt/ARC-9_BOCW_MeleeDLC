@@ -157,6 +157,8 @@ SWEP.MeleeSwingSound = "ARC9_BOCW.ETool_swing"
 
 SWEP.CamQCA = 1
 
+SWEP.FireInterruptInspect = true
+
 SWEP.NoViewBob = false
 
 -------------------------- POSITIONS

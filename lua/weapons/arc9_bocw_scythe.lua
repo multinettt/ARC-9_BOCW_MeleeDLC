@@ -156,6 +156,8 @@ SWEP.MeleeSwingSound = ""
 
 SWEP.CamQCA = 1
 
+SWEP.FireInterruptInspect = true
+
 SWEP.NoViewBob = false
 
 -------------------------- POSITIONS

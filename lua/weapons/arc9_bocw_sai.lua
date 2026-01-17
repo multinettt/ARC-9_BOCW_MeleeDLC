@@ -156,6 +156,8 @@ SWEP.MeleeSwingSound = "ARC9_BOCW.Sai_swing"
 
 SWEP.CamQCA = 1
 
+SWEP.FireInterruptInspect = true
+
 SWEP.NoViewBob = false
 
 -------------------------- POSITIONS
@@ -264,8 +266,9 @@ SWEP.Animations = {
     },
     ["enter_inspect"] = {
         Source = "inspect",
+        Time = 7.5,
         EventTable = {
-            { s = "ARC9_BOCW.sai_inspect", t = 0 },
+            { s = "ARC9_BOCW.Sai_inspect", t = 0 },
         },
     },
 }

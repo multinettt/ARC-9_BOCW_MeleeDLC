@@ -129,7 +129,7 @@ SWEP.BashDamage = 150
 SWEP.BashLungeRange = 0
 SWEP.BashRange = 64
 SWEP.PreBashTime = 0.2
-SWEP.PostBashTime = 0.4
+SWEP.PostBashTime = 0.6
 SWEP.BashDamageType = DMG_CLUB
 SWEP.BashDecal = "ManhackCut"
 
@@ -156,6 +156,8 @@ SWEP.MeleeSwingSound = "ARC9_BOCW.Machete_swing"
 -------------------------- EFFECTS
 
 SWEP.CamQCA = 1
+
+SWEP.FireInterruptInspect = true
 
 SWEP.NoViewBob = false
 

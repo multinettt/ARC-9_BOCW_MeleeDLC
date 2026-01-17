@@ -151,11 +151,13 @@ SWEP.NPCWeight = 100 -- How likely it is for an NPC to get this weapon as oppose
 
 SWEP.MeleeHitSound = "ARC9_BOCW.Shared_Melee_slash"
 SWEP.MeleeHitWallSound = "ARC9_BOCW.Shared_Melee_impact"
-SWEP.MeleeSwingSound = "ARC9_BOCW.Sai_swing"
+SWEP.MeleeSwingSound = ""
 
 -------------------------- EFFECTS
 
 SWEP.CamQCA = 1
+
+SWEP.FireInterruptInspect = true
 
 SWEP.NoViewBob = false
 
@@ -233,14 +235,20 @@ SWEP.Animations = {
     ["ready"] = {
         Source = "ready",
         EventTable = {
-            { s = "ARC9_BOCW.BattleAxe_ready", t = 0 },
+            { s = "ARC9_BOCW.BattleAxe_ready", t = 0.1 },
         },
     },
     ["bash"] = {
         Source = "melee1",
+        EventTable = {
+            { s = "ARC9_BOCW.Sai_swing", t = 0.1 },
+        },
     },
     ["1_bash"] = {
         Source = "melee2",
+        EventTable = {
+            { s = "ARC9_BOCW.Sai_swing", t = 0.1 },
+        },
     },
     ["enter_sprint"] = {
         Source = "supersprint_in",
