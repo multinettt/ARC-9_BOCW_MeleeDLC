@@ -68,8 +68,8 @@ SWEP.TPIKforcelefthand = true
 SWEP.DefaultBodygroups = "00000000000000"
 
 SWEP.WorldModelOffset = {
-    Pos = Vector(-14, 4, -8),
-    Ang = Angle(0, 0, 120),
+    Pos = Vector(21.5, -3, -4),
+    Ang = Angle(185, 0, -70),
     Scale = 1
 }
 
@@ -182,9 +182,9 @@ SWEP.HolsterPos = Vector(0, 0, -5)
 SWEP.HolsterAng = Angle(0, -15, 25)
 
 -- Position for customizing
-SWEP.CustomizeAng = Angle(0, 0, 0)
-SWEP.CustomizePos = Vector(0, 25, 6)
-SWEP.CustomizeRotateAnchor = Vector(15, -3, -7)
+SWEP.CustomizeAng = Angle(2, 75, 5.5)
+SWEP.CustomizePos = Vector(-4, 25, -16)
+SWEP.CustomizeRotateAnchor = Vector(20, -1, -7)
 
 SWEP.CustomizeSnapshotFOV = 70
 SWEP.CustomizeSnapshotPos = Vector(0, 20, 0)
@@ -193,7 +193,7 @@ SWEP.CustomizeNoRotate = false
 
 -------------------------- HoldTypes
 
-SWEP.HoldType = "crowbar"
+SWEP.HoldType = "melee2"
 SWEP.HoldTypeSprint = "normal"
 SWEP.HoldTypeHolstered = "normal"
 SWEP.HoldTypeCustomize = "slam"
@@ -202,7 +202,7 @@ SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_SHOTGUN
 --SWEP.AnimReload = ACT_HL2MP_GESTURE_RELOAD_AR2 -- While in TPIK only
 SWEP.NonTPIKAnimReload = false
 SWEP.AnimDraw = false
-SWEP.AnimMelee = ACT_HL2MP_GESTURE_RANGE_ATTACK_SHOTGUN
+SWEP.AnimMelee = ACT_HL2MP_GESTURE_RANGE_ATTACK_MELEE2
 
 -------------------------- ATTACHMENTS
 SWEP.AttachmentElements = {}

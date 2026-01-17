@@ -68,8 +68,8 @@ SWEP.TPIKforcelefthand = true
 SWEP.DefaultBodygroups = "00000000000000"
 
 SWEP.WorldModelOffset = {
-    Pos = Vector(-12, 5, -6),
-    Ang = Angle(0, 0, 180),
+    Pos = Vector(13, 6.5, -13),
+    Ang = Angle(140, 0, 90),
     Scale = 1
 }
 
@@ -188,9 +188,9 @@ SWEP.HolsterPos = Vector(0, 0, -5)
 SWEP.HolsterAng = Angle(0, -15, 25)
 
 -- Position for customizing
-SWEP.CustomizeAng = Angle(0, 0, 0)
-SWEP.CustomizePos = Vector(0, 25, 6)
-SWEP.CustomizeRotateAnchor = Vector(15, -3, -7)
+SWEP.CustomizeAng = Angle(0, 90, -134)
+SWEP.CustomizePos = Vector(23.5, 26, 8)
+SWEP.CustomizeRotateAnchor = Vector(20, -10, -7)
 
 SWEP.CustomizeSnapshotFOV = 70
 SWEP.CustomizeSnapshotPos = Vector(0, 20, 0)
