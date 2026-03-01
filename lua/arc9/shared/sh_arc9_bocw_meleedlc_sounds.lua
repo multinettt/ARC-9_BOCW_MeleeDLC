@@ -302,6 +302,15 @@ sound.Add({
     volume = 1.0,
     sound = "weapons/arc9/bocw_battleaxe/battleaxe_ready.wav"
 })
+
+-- INSPECT FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.BattleAxe_inspect",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_battleaxe/battleaxe_inspect.wav"
+})
 --[[
 ooooo   ooooo                                                                                                 .o8      .oooooo..o  o8o            oooo        oooo            
 `888'   `888'                                                                                                "888     d8P'    `Y8  `"'            `888        `888            

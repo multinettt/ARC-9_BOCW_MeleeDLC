@@ -30,7 +30,7 @@
 
     "$detail" ""
     "$detailblendfactor" "0.5"
-    "$detailblendmode" "2" 
+    "$detailblendmode" "2"
 
     //remove this if not using MWB
     "Proxies"
