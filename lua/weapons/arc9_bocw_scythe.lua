@@ -7,7 +7,7 @@
 --   SWEP INFORMATION:
 
 --   BASE  : ARC9
---   BUILD : v2026.1
+--   BUILD : v2026.3
 --   SR.NO : 
 
 
@@ -150,7 +150,7 @@ SWEP.NPCWeight = 100 -- How likely it is for an NPC to get this weapon as oppose
 
 SWEP.MeleeHitSound = "ARC9_BOCW.Shared_Melee_slash"
 SWEP.MeleeHitWallSound = "ARC9_BOCW.Shared_Melee_impact"
-SWEP.MeleeSwingSound = ""
+SWEP.MeleeSwingSound = "ARC9_BOCW.Scythe_swing"
 
 -------------------------- EFFECTS
 
@@ -239,27 +239,15 @@ SWEP.Animations = {
     },
     ["bash"] = {
         Source = "melee1",
-        EventTable = {
-            { s = "ARC9_BOCW.Sai_swing", t = 0.2 },
-        },
     },
     ["1_bash"] = {
         Source = "melee2",
-        EventTable = {
-            { s = "ARC9_BOCW.Sai_swing", t = 0.2 },
-        },
     },
     ["2_bash"] = {
         Source = "melee3",
-        EventTable = {
-            { s = "ARC9_BOCW.Sai_swing", t = 0.2 },
-        },
     },
     ["3_bash"] = {
         Source = "melee4",
-        EventTable = {
-            { s = "ARC9_BOCW.Sai_swing", t = 0.2 },
-        },
     },
     ["enter_sprint"] = {
         Source = "supersprint_in",

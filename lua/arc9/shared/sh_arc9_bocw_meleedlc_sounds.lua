@@ -209,6 +209,23 @@ ooo        ooooo
  8    Y     888  d8(  888  888   .o8 888    .o 
 o8o        o888o `Y888""8o `Y8bod8P' `Y8bod8P' 
 ]]
+-- READY FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.Mace_ready",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_mace/mace_ready.wav"
+})
+sound.Add({
+    name = "ARC9_BOCW.Mace_ready_end",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_mace/mace_ready_end.wav"
+})
+
+-- INSPECT FOLEY
+
 sound.Add({
     name = "ARC9_BOCW.Mace_inspect",
     channel = CHAN_ITEM,
@@ -275,6 +292,15 @@ sound.Add({
     channel = CHAN_AUTO,
     volume = 1.0,
     sound = "weapons/arc9/bocw_sai/sai_ready.wav"
+})
+
+-- INSPECT FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.Sai_inspect",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_sai/sai_inspect.wav"
 })
 
 -- MELEE SOUNDS
@@ -364,4 +390,13 @@ sound.Add({
     channel = CHAN_ITEM,
     volume = 1.0,
     sound = "weapons/arc9/bocw_scythe/scythe_inspect.wav"
+})
+
+-- MELEE SOUNDS
+
+sound.Add({
+    name = "ARC9_BOCW.Scythe_swing",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = {"weapons/arc9/bocw_scythe/scythe_swing1.wav", "weapons/arc9/bocw_scythe/scythe_swing2.wav", "weapons/arc9/bocw_scythe/scythe_swing3.wav"}
 })

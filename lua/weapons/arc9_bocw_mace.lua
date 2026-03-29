@@ -7,7 +7,7 @@
 --   SWEP INFORMATION:
 
 --   BASE  : ARC9
---   BUILD : v2026.1
+--   BUILD : v2026.3
 --   SR.NO : 
 
 
@@ -234,7 +234,8 @@ SWEP.Animations = {
     ["ready"] = {
         Source = "ready",
         EventTable = {
-            { s = "ARC9_BOCW.Cane_ready", t = 0 },
+            { s = "ARC9_BOCW.Mace_ready", t = 0 },
+            { s = "ARC9_BOCW.Mace_ready_end", t = 0.6 },
         },
     },
     ["bash"] = {
